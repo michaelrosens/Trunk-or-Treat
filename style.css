@@ -1,0 +1,126 @@
+body {
+    background: var(--color-background);
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
+}
+
+h2 {
+    color: #ff6600;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h5{
+    color: #ff6600;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.card {
+    background-color: #333333;
+    border: 1px solid #ff6600;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #ff9900;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+    color: #cccccc;
+}
+
+.accordion-button {
+    background-color: #333333;
+    color: #ff9900;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ff6600;
+    color: #1a1a1a;
+}
+
+.accordion-body {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #ff9900;
+}
+
+.btn-primary:hover {
+    background-color: #ff9900;
+    border-color: #ff6600;
+}
+
+.container::before {
+    content: '🎃';
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-size: 40px;
+}
+
+.container::after {
+    content: '👻';
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    font-size: 40px;
+}
+
+:root {
+    --color-background: #837391;
+    --color-primary: #D8D1C0;
+    --color-secondary: #A99378;
+    --color-tertiary: #272728;
+    --color-shadow: #695C74;
+    font-size: 0.9vw;
+  }
+  
+ 
+  
