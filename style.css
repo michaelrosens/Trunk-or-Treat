@@ -1,7 +1,9 @@
 body {
     background: var(--color-background);
 }
-
+body {
+    cursor: url('A\ Nightmare\ on\ Elm\ Street\ Freddy\ Krueger\ &\ Glove.zip'), auto;
+}
 .container {
     padding: 20px;
 }
@@ -15,6 +17,7 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
+
 
 body {
     background-color: #1a1a1a;
@@ -70,22 +73,18 @@ h5{
     color: #cccccc;
 }
 
-.accordion-button {
-    background-color: #333333;
-    color: #ff9900;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-}
+.accordion-toggle {
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+  }
+  
+  .accordion-content.default {
+    display: block;
+  }
 
-.accordion-button:not(.collapsed) {
-    background-color: #ff6600;
-    color: #1a1a1a;
-}
-
-.accordion-body {
-    background-color: #2a2a2a;
-    color: #f0f0f0;
-}
 
 .btn-primary {
     background-color: #ff6600;
